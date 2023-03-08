@@ -1,20 +1,20 @@
 # <a id="exercise7">Exercise 7 - Add the dSource
 In this exercise, you will:
 
-  * Add the AdventureWorks2008R2 dSource into Delphix and bring in the initial backup
+  * Add the 'AdventureWorks2008R2' dSource into Delphix and bring in the initial backup
 
-With an environment set up, users can then sync databases into Delphix. The Delphix engine will read the source database and create a dSource (a custom object). The dSource is not a functional image of the database but a storage-efficient object from which virtual databases can be created. When creating a dSource, Delphix will pull over the complete data set using standard database protocols. Subsequent sync operations, as governed by user-defined policies, will pull only incremental changes.
+With an Environment set up, users can then sync databases into Delphix. The Delphix engine will read the source database and create a dSource (a custom object). The dSource is not a functional image of the database but a storage-efficient object from which virtual databases can be created. When creating a dSource, Delphix will pull over the complete dataset using standard database protocols. Subsequent sync operations, as governed by user-defined policies, will pull only incremental changes.
 
 ### Steps
 
 1. Navigate to Manage -> Datasets
 ![images/download/attachments/90015915/worddav9e7bebc06f9b20af064be6f7cfee8f08.png](images/download/attachments/90015915/worddav9e7bebc06f9b20af064be6f7cfee8f08.png)
 
-2. Click the Plus ![images/s/en_GB/7104/0e21dd459285e7b3b5e0deaa2193b2af8bbb7c8b/_/images/icons/emoticons/add.png](images/s/en_GB/7104/0e21dd459285e7b3b5e0deaa2193b2af8bbb7c8b/_/images/icons/emoticons/add.png) and choose Add dSource from the drop-down
+2. Click the Plus ![images/s/en_GB/7104/0e21dd459285e7b3b5e0deaa2193b2af8bbb7c8b/_/images/icons/emoticons/add.png](images/s/en_GB/7104/0e21dd459285e7b3b5e0deaa2193b2af8bbb7c8b/_/images/icons/emoticons/add.png) and choose Add dSource from the drop-down menu
 
 ![images/download/attachments/90015915/worddav2958c211ddad293eda939aee9835b88b.png](images/download/attachments/90015915/worddav2958c211ddad293eda939aee9835b88b.png)
 
-3. On the Add dSource wizard, review the information and pre-requisites on the Preparation tab then click Next
+3. On the 'Add dSource' wizard, review the information and pre-requisites on the Preparation tab then click Next
 
 4. On the Source tab click the **AdventureWorks2008R2** Data Source to select it and enter the information below
 
